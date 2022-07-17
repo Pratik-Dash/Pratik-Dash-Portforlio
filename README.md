@@ -1,2 +1,2 @@
 # Pratik-Dash-Portforlio
- A repo to showcase my projects
+ I'll be showcasing my projects here in a couple of days.
