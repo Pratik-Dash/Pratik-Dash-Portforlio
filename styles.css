@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
 :root{
     
-    --primary:#7A4069;
+    --primary:#CF455C;
+    
+    --background:#F5F0BB;
+    
 
 }
 body{
     font-family: 'Roboto Slab', serif;
-    /* background-color: var(--background-color); */
+    
+    /* color: whitesmoke; */
     
 }
     
@@ -27,7 +31,7 @@ hr{
 /** Links**/
 .link{
     text-decoration: none;
-    border: 1px solid;
+    border: 1px solid var(--primary);
     padding: 0.5rem 1rem;
     
 }
@@ -50,4 +54,39 @@ hr{
 .ul-list-inline{
     display: inline;
     padding-right: 1rem;
+}
+.navigation{
+    background-color: var(--primary);
+    
+    border-bottom-left-radius: 1rem;
+    
+    
+}
+.nav-list{
+    list-style: none;
+    text-align: right;
+    padding: 1rem;
+}
+
+.nav-list-item{
+    
+    display: inline;
+    padding: 0rem 1rem;
+    
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+    
+}
+.link-active{
+    color:var(--accent);
+    font-weight: bold;
+    
+}
+.nav-brand h4{
+   padding: 1rem 0.5rem;
+   color: white;
+  
+
 }
