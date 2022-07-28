@@ -4,6 +4,7 @@
     --primary:#CF455C;
     
     --background:#F5F0BB;
+    --headingcolor:#6b7280;
     
 
 }
@@ -22,7 +23,7 @@ body{
 
 .container-centered{
     max-width: 600px;
-    margin: auto;
+    margin: 0 auto;
 }
 hr{
     margin: 1rem 0rem;
@@ -80,7 +81,7 @@ hr{
     
 }
 .link-active{
-    color:var(--accent);
+    
     font-weight: bold;
     
 }
@@ -89,4 +90,22 @@ hr{
    color: white;
   
 
+}
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+.hero-img{
+
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    
+}
+.hero h2{
+    padding-top: 1rem;
+    color: var(--headingcolor);
+}
+.span-text{
+    color: var(--primary);
 }
