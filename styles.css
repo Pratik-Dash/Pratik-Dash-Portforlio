@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
 :root{
     
-    --primary:#CF455C;
+    --primary:#fc7061;
     
-    --background:#F5F0BB;
-    --headingcolor:#6b7280;
+    --background:#fbe9e7;
+    --headingcolor:#475569;
     
 
 }
 body{
     font-family: 'Roboto Slab', serif;
     
-    /* color: whitesmoke; */
+    background-color: var(--background);
     
 }
     
@@ -41,6 +41,7 @@ hr{
     border-radius: 0.6rem;
     background-color:var(--primary);
     color: white;
+    
 }
 .link-secondary{
     border-radius: 0.6rem;
@@ -77,17 +78,18 @@ hr{
 }
 .nav-links{
     text-decoration: none;
-    color: white;
+    color: var(--background);
     
 }
 .link-active{
     
     font-weight: bold;
+    color: var(--background);
     
 }
 .nav-brand h4{
    padding: 1rem 0.5rem;
-   color: white;
+   color: var(--background);
   
 
 }
@@ -109,3 +111,54 @@ hr{
 .span-text{
     color: var(--primary);
 }
+
+.section{
+    margin:0 auto;
+    text-align: left;
+    padding: 2rem;
+    color: #6b7280;
+    max-width: 600px;
+    
+}
+.section h3{
+    text-align: center;
+}
+
+.section-offwhite{
+
+    background-color: #fce3e0;
+
+    
+}
+
+.footer{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 2rem 1rem;
+
+}
+.footer p{
+    font-size: larger;
+    font-weight: bold;
+}
+.footer ul{
+    list-style: none;
+    padding-inline-start: 0;
+    
+    
+}
+.footer a{
+    text-decoration: none;
+    color: var(--background);
+
+}
+.footer-list-item{
+    display: inline;
+    padding: 0rem 1rem;
+    
+}
+last{
+    padding: 0rem;
+}
+
+
