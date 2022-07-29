@@ -12,6 +12,7 @@ body{
     font-family: 'Roboto Slab', serif;
     
     background-color: var(--background);
+    margin: 0;
     
 }
     
@@ -33,7 +34,7 @@ hr{
 .link{
     text-decoration: none;
     border: 1px solid var(--primary);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     
 }
     
@@ -63,6 +64,7 @@ hr{
     border-bottom-left-radius: 1rem;
     
     
+    
 }
 .nav-list{
     list-style: none;
@@ -90,6 +92,10 @@ hr{
 .nav-brand h4{
    padding: 1rem 0.5rem;
    color: var(--background);
+   margin-block-start:0;
+   
+
+
   
 
 }
@@ -120,8 +126,12 @@ hr{
     max-width: 600px;
     
 }
-.section h3{
+.section h1{
     text-align: center;
+    color: black;
+}
+.section a{
+    margin: 0 auto;
 }
 
 .section-offwhite{
@@ -147,6 +157,8 @@ hr{
     
     
 }
+
+
 .footer a{
     text-decoration: none;
     color: var(--background);
