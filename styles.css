@@ -114,6 +114,9 @@ hr{
     color: var(--background);
     text-decoration: none;
 }
+.nav-brand a:hover{
+    color: wheat;
+}
 .hero{
     padding: 2rem;
     text-align: center;
