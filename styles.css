@@ -45,6 +45,7 @@ hr{
     
     border-color: var(--primary);
     color: var(--primary);
+    background-color: var(--background);
     
     
 }
@@ -52,6 +53,7 @@ hr{
     
     border-color: var(--primary);
     color: var(--primary);
+    background-color: var(--background);
     
 }
 .ul-list{
@@ -102,6 +104,7 @@ hr{
    color: var(--background);
    margin-block-start:0;
    font-family: 'Roboto Slab', serif;
+   padding-top: auto;
  
    
    
@@ -209,7 +212,11 @@ hr{
     text-decoration: none;
     color: var(--background);
     
+    
 
+}
+.footer a:hover{
+    color: wheat;
 }
 .footer-list-item{
     display: inline;
