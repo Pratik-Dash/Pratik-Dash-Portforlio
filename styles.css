@@ -90,9 +90,10 @@ hr{
     
 }
 .nav-brand h4{
-   padding: 1rem 0.5rem;
+   padding: 1rem 0.5rem 0rem;
    color: var(--background);
    margin-block-start:0;
+   
    
 
 
@@ -114,16 +115,21 @@ hr{
     padding-top: 1rem;
     color: var(--headingcolor);
 }
+.center-div{
+    
+    margin-top: 20rem;
+
+}
 .span-text{
     color: var(--primary);
 }
 
 .section{
     margin:0 auto;
-    text-align: left;
+    text-align: center;
     padding: 2rem;
     color: #6b7280;
-    max-width: 600px;
+    /* max-width: 600px; */
     
 }
 .section h1{
@@ -139,6 +145,16 @@ hr{
     background-color: #fce3e0;
 
     
+}
+
+.section-links{
+
+    padding: 1.5rem 0rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.section-links a{
+    margin: 0.5rem;
 }
 
 .footer{
