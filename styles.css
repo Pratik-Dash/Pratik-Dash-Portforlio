@@ -13,7 +13,8 @@ body{
     
     background-color: var(--background);
     margin: 0;
-    
+    max-height: 100% !important;
+    overflow: auto;
 }
     
 
@@ -40,8 +41,8 @@ hr{
     
 .link-primary{
     border-radius: 0.6rem;
-    background-color:var(--primary);
-    color: white;
+    border-color: var(--primary);
+    color: var(--primary);
     
 }
 .link-secondary{
@@ -82,6 +83,9 @@ hr{
     text-decoration: none;
     color: var(--background);
     
+}
+.nav-links:hover{
+    color:wheat
 }
 .link-active{
     
@@ -136,9 +140,19 @@ hr{
     text-align: center;
     color: black;
 }
-.section a{
+.section button{
     margin: 0 auto;
+    position: relative;
 }
+.link-primary:hover{
+    background-color: var(--primary);
+    color: var(--background);
+}
+.link-secondary:hover{
+    background-color: var(--primary);
+    color: var(--background);
+}
+    
 
 .section-offwhite{
 
@@ -161,6 +175,8 @@ hr{
     background-color: var(--primary);
     text-align: center;
     padding: 2rem 1rem;
+    
+    
 
 }
 .footer p{
@@ -178,12 +194,16 @@ hr{
 .footer a{
     text-decoration: none;
     color: var(--background);
+    
 
 }
 .footer-list-item{
     display: inline;
     padding: 0rem 1rem;
     
+}
+.footer h2{
+    color: whitesmoke;
 }
 last{
     padding: 0rem;
