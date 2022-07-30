@@ -13,8 +13,8 @@ body{
     
     background-color: var(--background);
     margin: 0;
-    max-height: 100% !important;
-    overflow: auto;
+    
+    
 }
     
 
@@ -101,13 +101,18 @@ hr{
    padding: 1rem 0.5rem 0rem;
    color: var(--background);
    margin-block-start:0;
-   font-family: 'Lobster', cursive;
+   font-family: 'Roboto Slab', serif;
+ 
    
    
 
 
   
 
+}
+.nav-brand a{
+    color: var(--background);
+    text-decoration: none;
 }
 .hero{
     padding: 2rem;
@@ -180,6 +185,7 @@ hr{
     background-color: var(--primary);
     text-align: center;
     padding: 2rem 1rem;
+    border-top-left-radius: 1rem;
     
     
 
