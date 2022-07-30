@@ -1,0 +1,32 @@
+
+body{
+    margin: 0
+}
+.navigation{
+    background-color: coral;
+    border-bottom-left-radius: 1rem;
+
+}
+.nav-brand{
+   
+    display: inline;
+    position: absolute;
+}
+.nav-brand img{
+    height: 3rem;
+    width: 3rem;
+}
+.navigation ul{
+    list-style-type: none;
+    padding: 2rem;
+    text-align: right;
+    margin-block-start: 0em;
+}
+.navigation ul li{
+    display: inline;
+    padding: 0rem 2rem;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: wheat;
+}
