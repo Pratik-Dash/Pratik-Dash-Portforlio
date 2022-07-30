@@ -35,18 +35,21 @@ hr{
 .link{
     text-decoration: none;
     border: 1px solid var(--primary);
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 2rem;
+    border-radius: 0.6rem;
+   
     
 }
     
 .link-primary{
-    border-radius: 0.6rem;
+    
     border-color: var(--primary);
     color: var(--primary);
     
+    
 }
 .link-secondary{
-    border-radius: 0.6rem;
+    
     border-color: var(--primary);
     color: var(--primary);
     
@@ -93,10 +96,12 @@ hr{
     color: var(--background);
     
 }
-.nav-brand h4{
+.nav-brand {
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Martel:wght@800&family=Roboto+Slab:wght@200;400&display=swap');
    padding: 1rem 0.5rem 0rem;
    color: var(--background);
    margin-block-start:0;
+   font-family: 'Lobster', cursive;
    
    
 
@@ -141,7 +146,7 @@ hr{
     color: black;
 }
 .section button{
-    margin: 0 auto;
+    margin: 0 0.5rem;
     position: relative;
 }
 .link-primary:hover{
