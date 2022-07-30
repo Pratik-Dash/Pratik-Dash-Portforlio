@@ -75,7 +75,9 @@ hr{
 .nav-list{
     list-style: none;
     text-align: right;
-    padding: 1rem;
+    padding: 2rem;
+    margin-block-start: 0em;
+
 }
 
 .nav-list-item{
@@ -90,7 +92,7 @@ hr{
     
 }
 .nav-links:hover{
-    color:wheat
+    color:#f5deb3
 }
 .link-active{
     
@@ -104,6 +106,8 @@ hr{
    color: var(--background);
    margin-block-start:0;
    font-family: 'Roboto Slab', serif;
+   position: absolute;
+   margin-block-start:0;
    
  
    
@@ -118,9 +122,15 @@ hr{
     text-decoration: none;
     padding-top: 0;
    
+   
 }
 .nav-brand a:hover{
     color: wheat;
+}
+.nav-brand img{
+    height: 4rem;
+    width:4rem;
+    
 }
 .hero{
     padding: 2rem;
