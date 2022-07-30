@@ -100,11 +100,11 @@ hr{
 }
 .nav-brand {
     @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Martel:wght@800&family=Roboto+Slab:wght@200;400&display=swap');
-   padding: 1rem 0.5rem 0rem;
+   padding: 0.3rem 0.5rem 0rem;
    color: var(--background);
    margin-block-start:0;
    font-family: 'Roboto Slab', serif;
-   padding-top: auto;
+   
  
    
    
@@ -116,6 +116,8 @@ hr{
 .nav-brand a{
     color: var(--background);
     text-decoration: none;
+    padding-top: 0;
+   
 }
 .nav-brand a:hover{
     color: wheat;
