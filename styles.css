@@ -14,8 +14,6 @@ body{
     background-color: var(--background);
     margin: 0;
    
-    min-height: 100vh;
-    
     
 }
     
@@ -68,12 +66,14 @@ hr{
 }
 .navigation{
     background-color: var(--primary);
+    border-bottom-left-radius: 2rem;
     
-    border-bottom-left-radius: 1rem;
+   
     
     
     
 }
+
 .nav-list{
     list-style: none;
     text-align: right;
@@ -131,6 +131,7 @@ hr{
 .hero{
     padding: 2rem;
     text-align: center;
+    color: var(--headingcolor);
 }
 .hero-img{
 
@@ -152,15 +153,41 @@ hr{
     color: var(--primary);
 }
 
+.about{
+    color: var(--primary);
+   font-size: smaller;
+   font-weight: bolder;
+   
+    
+
+}
+.accenture{
+    text-decoration: none;
+    color: #A100FF;
+    font-weight: bolder;
+   
+}
+
 .section{
-    margin:0 auto;
+    margin:2rem auto;
     text-align: center;
     padding: 2rem;
     color: #6b7280;
+    max-width: 600px;
+    border-radius: 1rem;
+    /* border: 3px solid var(--primary); */
     
-    /* max-width: 600px; */
+   
     
 }
+.section-projects:hover{
+    border: 3px solid var(--primary);
+    background-color: wheat;
+    
+    transition: 0.4s;
+    
+}
+   
 .section h1{
     text-align: center;
     color: black;
@@ -169,9 +196,17 @@ hr{
     margin: 0 0.5rem;
     position: relative;
 }
+.project-date{
+    display: block;
+    text-align: center;
+    color: var(--headingcolor);
+    
+}
+
 .link-primary:hover{
     background-color: var(--primary);
     color: var(--background);
+    transition: 1sec;
 }
 .link-secondary:hover{
     background-color: var(--primary);
@@ -201,9 +236,8 @@ hr{
     background-color: var(--primary);
     text-align: center;
     padding: 2rem 1rem;
-    border-top-left-radius: 1rem;
-    position:relative;
-    margin-top: auto;
+    border-top-left-radius: 2rem;
+   
     
 
     
