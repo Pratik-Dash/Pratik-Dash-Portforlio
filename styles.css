@@ -190,7 +190,7 @@ hr{
    
 .section h1{
     text-align: center;
-    color: black;
+   color: var(--primary);
 }
 .section button{
     margin: 0 0.5rem;
