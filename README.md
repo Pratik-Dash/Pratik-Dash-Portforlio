@@ -2,7 +2,7 @@
 Hi, My Name is Pratik.
 I am a web developer and a programmer.
 Currently, I am prepping for neoG camp level 1.
-This is my portfolio website made using HTML ,CSS and JavaScript. In this portfolio wwebsites I have showcased all the projects that I have made as well as blogs that I have writtend as part of neoG camp level 0. This project covers Mark3, Mark4 and Mark5 of Mark 15
+This is my portfolio website made using HTML ,CSS and JavaScript. In this portfolio website, I have showcased all the projects that I have made as well as blogs that I have written as part of neoG camp level 0. This project covers Mark3, Mark4 and Mark5 of Mark 15.
 
 ## Snapshots
 ![image](https://user-images.githubusercontent.com/70498020/188760700-aa47eeff-7b5e-48da-afaf-a194e6b6af26.png)
