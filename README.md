@@ -1,6 +1,6 @@
 # Pratik's Portfolio
 Hi, My Name is Pratik.
-I am a web developer and a programmer.
+I am a programmer and a web developer.
 Currently, I am prepping for neoG camp level 1.
 This is my portfolio website made using HTML ,CSS and JavaScript. In this portfolio website, I have showcased all the projects that I have made as well as blogs that I have written as part of neoG camp level 0. This project covers Mark3, Mark4 and Mark5 of Mark 15.
 
